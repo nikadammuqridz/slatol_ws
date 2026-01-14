@@ -18,14 +18,15 @@ Ensure you have the ROS 2 development tools installed:
 sudo apt update
 sudo apt install ros-humble-desktop python3-colcon-common-extensions git -y
 
-2. Build the Project
+### 2. Build the Project
 Open your terminal (Ctrl+Alt+T) inside this folder:
 
 colcon build --symlink-install
 source install/setup.bash
 
-3. Open in VS Code
+### 3. Open in VS Code
 code .
+
 Tip: Install the "ROS" and "Python" extensions in VS Code for better syntax highlighting.
 
 Code Structure & Logic

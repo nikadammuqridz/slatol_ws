@@ -15,6 +15,7 @@ This repository utilizes a **Finite State Machine (FSM)** architecture to contro
 
 ### 1. Prerequisites
 Ensure you have the ROS 2 development tools installed:
+    
     sudo apt update
     sudo apt install ros-humble-desktop python3-colcon-common-extensions git -y
 
